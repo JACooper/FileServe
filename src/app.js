@@ -8,7 +8,7 @@ const port = process.env.PORT || process.env.NODE_PORT || 3000;
 app.use(express.static(path.join(`${__dirname}/../hosted/`)));
 
 app.get('/', (request, response) => {
-  response.sendFile(`${__dirname}/../hosted/index.html`);
+  response.sendFile('index.html', {root: path.resolve(`${__dirname}/../hosted/`)});
 });
 
 app.listen(port, (error) => {

@@ -7,7 +7,7 @@ Dead simple server using express for locally hosting, serving, and testing in a 
 Running Locally
 ---------------
 
-Make sure you have [Node](https://nodejs.org) installed, and that you have an index.html file directly inside the "hosted" folder. You may specify a different name if you wish by editing app.js. Additional files and subfolders within this folder will be served automatically. To start, navigate to the project directory and run
+Make sure you have [Node](https://nodejs.org) installed. Create a "hosted" folder in the root directory and ensure you have an index.html file directly inside it. You may specify a different name for these if you wish by editing app.js. Additional files and subfolders within this folder will be served automatically. To start, navigate to the project directory and run
 
 ```
 npm install
