@@ -1,0 +1,15 @@
+{
+  "name": "fileserve",
+  "version": "1.0.0",
+  "description": "Simple local server for locally testing in a browser",
+  "main": "./src/app.js",
+  "scripts": {
+    "start": "node ./src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jesse Cooper",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
